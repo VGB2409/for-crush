@@ -1,16 +1,16 @@
 const textConfig = {
-  text1: "He luu c?u!",
-  text2: "C?u h�y b?m v�o d�y d? xem ti?p nha.",
-  text3: "C?u y�u t? c� ph?i kh�ng n�o ._.",
-  text4: "N?u c?u ko tr? l?i m� tho�t ra t?c l� mu?n l�m v? t? r�i d� nha :v",
-  text5: "C?u mo �???",
-  text6: "Y�u oi l� y�u <3",
-  text7: "l� do c?u th�ch t? di :vvvv",
-  text8: "G?i cho t? <3",
-  text9: "V� c?u d?p try vlllll",
-  text10: "T? bi?t m� ^^ Y�u c?u nh?t tr�n d?i",
+  text1: "He luu cậu!",
+  text2: "Bấm vô đây để xem tiếp nha.",
+  text3: "Cậu yêu tớ có phải không nào ._.",
+  text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn làm người yêu tớ rùi đó nha :v",
+  text5: "Cậu mơ à???",
+  text6: "Yêu ơi là yêu <3",
+  text7: "lí do cậu thích tớ đi :vvvv",
+  text8: "Gửi cho tớ <3",
+  text9: "Vì cậu đẹp trai đó :3",
+  text10: "Tớ biết mà ^^ yêu cậu nhất trên đời",
   text11:
-    "Gi? th� ch? g� n?a m� ko inbox cho t? di n�ooo",
+    "Giờ thì chờ gì nữa mà ko nhắn tin cho tớ đi nàooo",
   text12: "Okii lunn <3",
 };
 
@@ -35,7 +35,7 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "img/324352158_3343873472532401_1672259450708716884_n.jpg",
+      imageUrl: "img/images.jpg",
       imageWidth: 300,
       imageHeight: 300,
       background: '#fff url("img/iput-bg.jpg")',
@@ -58,7 +58,7 @@ $(document).ready(function () {
     $("#yes").css("left", leftNo);
     $("#yes").css("top", topNO);
   }
-  // move random button p�ition
+  // move random button póition
   function moveButton() {
     var audio = new Audio("sound/Swish1.mp3");
     audio.play();
